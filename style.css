@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: teal;
+}
+
+.calculator {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.cal-header > h1 {
+	color: white;
+	font-size: 2.5rem;
+}
+
+.input-box input {
+	width: 248px;
+	height: 80px;
+	text-align: right;
+	padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.cal-body {
+	font-size: 0;
+}
+.btn,
+#del,
+#equal,
+#clear,
+.plusSub {
+	width: 62px;
+	height: 60px;
+	background: rgb(26, 25, 25);
+	color: white;
+	font-size: 16px;
+}
+.btn2 {
+	background: rgb(19, 221, 127);
+}
